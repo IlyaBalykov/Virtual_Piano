@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: green;
+    height: 100%;
+    margin: 0;
+}
+kbd {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 60px;
+    height: 200px;
+    margin-left: 0;
+    border: 4px solid gray;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5em;
+    top: calc(50% - 100px);
+    padding-bottom: 5%;
+}
+.container {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    margin: auto auto;
+}
