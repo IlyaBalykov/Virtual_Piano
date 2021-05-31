@@ -41,6 +41,36 @@ document.addEventListener("keydown", function (e) {
         Key.play();
         console.log("The \'J\' key is pressed");
     }
+    else if (e.code == "KeyE") {
+        let Key = document.createElement("AUDIO");
+        Key.src="media/E.mp3";
+        Key.play();
+        console.log("The \'E\' key is pressed");
+    }
+    else if (e.code == "KeyT") {
+        let Key = document.createElement("AUDIO");
+        Key.src="media/T.mp3";
+        Key.play();
+        console.log("The \'T\' key is pressed");
+    }
+    else if (e.code == "KeyU") {
+        let Key = document.createElement("AUDIO");
+        Key.src="media/U.mp3";
+        Key.play();
+        console.log("The \'U\' key is pressed");
+    }
+    else if (e.code == "KeyW") {
+        let Key = document.createElement("AUDIO");
+        Key.src="media/W.mp3";
+        Key.play();
+        console.log("The \'W\' key is pressed");
+    }
+    else if (e.code == "KeyY") {
+        let Key = document.createElement("AUDIO");
+        Key.src="media/Y.mp3";
+        Key.play();
+        console.log("The \'Y\' key is pressed");
+    }
     else {
         console.log("Pressed another key");
     }

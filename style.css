@@ -8,22 +8,66 @@ body {
     margin: 0;
 }
 kbd {
-    display: flex;
-    position: relative;
-    background-color: white;
-    width: 60px;
-    height: 200px;
-    margin-left: 0;
-    border: 4px solid gray;
-    justify-content: center;
-    align-items: flex-end;
-    font-size: 1.5em;
-    top: calc(50% - 100px);
-    padding-bottom: 5%;
+    line-height: 200px;
 }
 .container {
     display: flex;
-    width: max-content;
-    height: 100%;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    height: 200px;
+    top: calc(50% - 100px);
+}
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    width: 60px;
+    height: 250px;
+    margin-left: 0;
+    border: 4px solid gray;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 450px;
+}
+.white-keys {
+    display: flex;
+    position: absolute;
     margin: auto auto;
+    line-height: 100%;
+    align-self: center;
+}
+.black-keys kbd {
+    display:inline-block;
+    background-color: black;
+    border: none;
+    width: 40px;
+    height: 150px;
+    font-size: 1.5em;
+    color: gainsboro;
+    text-align: center;
+    line-height: 250px;
+}
+.black-keys {
+    display: flex;
+    position: absolute;
+    width: max-content;
+    margin: auto auto;
+    line-height: 100%;
+    align-self: center;
+}
+
+#W {
+    margin-left: 0;
+}
+#E {
+    margin-left: 28px;
+}
+#T {
+    margin-left: 96px;
+}
+#Y {
+    margin-left: 28px;
+}
+#U {
+    margin-left: 28px;
 }
